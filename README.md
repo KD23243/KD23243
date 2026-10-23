@@ -2,7 +2,7 @@
 
 <h1>HI</h1><h2>hi</h2><h3>hi</h3><h4>hi</h4><h5>hi</h5><h6>you're shrinking in my presence, that's normal</h6>
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Comic+Neue&weight=700&size=30&duration=700&pause=100&color=FF0000&center=true&vCenter=true&width=800&lines=WHO+PUSHED+TO+MAIN%3F;ME.;I+PUSHED+TO+MAIN.;ON+A+FRIDAY.;NO+REVIEW.;AND+IT+WORKED.;BOW." /></p><img src="assets/plane.svg" width="100%" />
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Comic+Neue&weight=700&size=30&duration=700&pause=100&color=FF0000&center=true&vCenter=true&width=800&lines=WHO+PUSHED+TO+MAIN%3F;ME.;I+PUSHED+TO+MAIN.;ON+A+FRIDAY.;NO+REVIEW.;AND+IT+WORKED.;BOW." /></p><img src="assets/chase.svg" width="100%" />
 
 <img align="right" src="https://media.giphy.com/media/j6ZlX8ghxNFRknObVk/giphy.gif" width="300" /><br/><h2>the bugs</h2><h3>leaving my codebase</h3><h4>after i open my laptop →</h4><sub>rest in peace. you will not be missed.</sub><br clear="right"/>
 
