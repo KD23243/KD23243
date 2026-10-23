@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="'Courier New', Courier, monospace">
+  <style>
+    .t { font-size: 16px; font-weight: bold; }
+    .big { font-size: 44px; font-weight: bold; letter-spacing: 6px; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    .cursor { animation: blink 0.6s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .rainbow { animation: hue 2.4s steps(8) infinite; }
+    @keyframes hue {
+      0%   { fill: #AA0000; } 12.5% { fill: #AA5500; } 25% { fill: #00AA00; } 37.5% { fill: #00AAAA; }
+      50%  { fill: #0000AA; } 62.5% { fill: #AA00AA; } 75% { fill: #FF5555; } 87.5% { fill: #5555FF; }
+    }
+    .marquee { animation: scroll 18s linear infinite; }
+    @keyframes scroll { from { transform: translateX(800px); } to { transform: translateX(-1900px); } }
+    .w { opacity: 0; animation: word 8s steps(1) infinite; }
+    @keyframes word { 0% { opacity: 1; } 12.5% { opacity: 0; } 100% { opacity: 0; } }
+  </style>
+
+  <rect width="800" height="420" fill="#FFFFFF"/>
+
+  <!-- title bar -->
+  <rect width="800" height="22" fill="#0000AA"/>
+  <text x="8" y="16" class="t" fill="#FFFFFF">KumudithaOS</text>
+  <text x="140" y="16" class="t" fill="#FFFF55">CPU0 100%</text>
+  <text x="260" y="16" class="t" fill="#55FFFF">Mem: chaotic</text>
+  <text x="410" y="16" class="t" fill="#FF55FF">Ring: 0</text>
+  <text x="560" y="16" class="t" fill="#FFFFFF">Fri 03:14:15 <tspan class="blink">■</tspan></text>
+
+  <!-- double border window -->
+  <rect x="10" y="32" width="780" height="340" fill="none" stroke="#0000AA" stroke-width="3"/>
+  <rect x="16" y="38" width="768" height="328" fill="none" stroke="#0000AA" stroke-width="1"/>
+  <rect x="330" y="26" width="140" height="16" fill="#FFFFFF"/>
+  <text x="400" y="39" class="t" fill="#0000AA" text-anchor="middle">Adam Task</text>
+
+  <!-- big multicolor name -->
+  <text x="400" y="100" class="big" text-anchor="middle">
+    <tspan fill="#AA0000">K</tspan><tspan fill="#AA5500">U</tspan><tspan fill="#00AA00">M</tspan><tspan fill="#00AAAA">U</tspan><tspan fill="#0000AA">D</tspan><tspan fill="#AA00AA">I</tspan><tspan fill="#FF5555">T</tspan><tspan fill="#5555FF">H</tspan><tspan fill="#00AA00">A</tspan>
+  </text>
+  <text x="400" y="130" class="t" text-anchor="middle" fill="#555555">640x480 · 16 colors · ring-0 only · no networking · no regrets</text>
+
+  <!-- shell -->
+  <text x="40" y="175" class="t" fill="#0000AA">C:/Home&gt;</text>
+  <text x="135" y="175" class="t" fill="#000000">Dir;</text>
+  <text x="60" y="198" class="t" fill="#00AA00">sanity.HC.Z      0 bytes</text>
+  <text x="60" y="218" class="t" fill="#00AA00">side_projects/   ∞ items (0 finished)</text>
+  <text x="60" y="238" class="t" fill="#AA0000">sleep.BIN        file not found</text>
+
+  <text x="40" y="275" class="t" fill="#0000AA">C:/Home&gt;</text>
+  <text x="135" y="275" class="t" fill="#000000">GodWord;</text>
+  <text x="60" y="298" class="t" fill="#AA00AA">God says:</text>
+  <g class="t" fill="#AA5500">
+    <text x="175" y="298" class="w" style="animation-delay:0s">deploy on friday</text>
+    <text x="175" y="298" class="w" style="animation-delay:-7s">rewrite it in HolyC</text>
+    <text x="175" y="298" class="w" style="animation-delay:-6s">thou shalt not mock</text>
+    <text x="175" y="298" class="w" style="animation-delay:-5s">segfault</text>
+    <text x="175" y="298" class="w" style="animation-delay:-4s">behold, a null pointer</text>
+    <text x="175" y="298" class="w" style="animation-delay:-3s">pizza</text>
+    <text x="175" y="298" class="w" style="animation-delay:-2s">it compiles. it is good.</text>
+    <text x="175" y="298" class="w" style="animation-delay:-1s">git push --force</text>
+  </g>
+
+  <text x="40" y="335" class="t" fill="#0000AA">C:/Home&gt;</text>
+  <rect x="135" y="322" width="10" height="17" fill="#000000" class="cursor"/>
+
+  <!-- marquee -->
+  <rect x="0" y="384" width="800" height="30" fill="#0000AA"/>
+  <g class="marquee">
+    <text x="0" y="405" class="t rainbow">✝ WELCOME TO THE TEMPLE ✝ ALL CODE RUNS IN RING 0 ✝ THERE ARE NO PERMISSIONS, ONLY FAITH ✝ 640x480 IS A COVENANT ✝ PRESS F7 FOR DIVINE GUIDANCE ✝ NO TCP/IP, ONLY PRAYER ✝ HOLYC IS THE WAY ✝</text>
+  </g>
+</svg>
